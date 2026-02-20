@@ -9,16 +9,32 @@ $TTL 8h
   IN  NS  ns1.okd.ms1.lan.
 
 ns1.okd.ms1.lan.        IN  A 10.0.0.1
-api.okd.ms1.lan.        IN  A 10.0.0.100
-api-int.okd.ms1.lan.    IN  A 10.0.0.100
-*.apps.okd.ms1.lan.     IN  A 10.0.0.100
 
+; Service Node
+bastion.okd.ms1.lan.    IN  A   10.0.0.1
+
+; Temp Bootstrap Node
+bootstrap.okd.ms1.lan.    IN  A 10.0.0.145
+
+; Control Plane Nodes
+api.okd.ms1.lan.        IN  A 10.0.0.1
+api-int.okd.ms1.lan.    IN  A 10.0.0.1
+*.apps.okd.ms1.lan.     IN  A 10.0.0.1
+
+
+; Control Plane Nodes
 control-plane1.okd.ms1.lan. IN  A 10.0.0.150
 control-plane2.okd.ms1.lan. IN  A 10.0.0.151
 control-plane3.okd.ms1.lan. IN  A 10.0.0.152
 
+; Worker Nodes
 compute1.okd.ms1.lan.   IN  A 10.0.0.155
 compute2.okd.ms1.lan.   IN  A 10.0.0.160
 
-bastion.okd.ms1.lan.    IN  A   10.0.0.1
-bootstrap.okd.ms1.lan.    IN  A 10.0.0.145
+
+oauth-openshift.apps.okd.ms1.lan.     IN     A     10.0.0.1
+console-openshift-console.apps.okd.ms1.lan.     IN     A     10.0.0.1
+
+
+
+

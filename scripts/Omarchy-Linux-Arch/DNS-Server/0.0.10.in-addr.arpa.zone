@@ -8,8 +8,8 @@ $TTL 8h
       IN  NS  ns1.okd.ms1.lan.
 
 
-100.0.0.10.in-addr.arpa.  IN  PTR api.okd.ms1.lan.
-100.0.0.10.in-addr.arpa.  IN  PTR api-int.okd.ms1.lan.
+1.0.0.10.in-addr.arpa.  IN  PTR api.okd.ms1.lan.
+1.0.0.10.in-addr.arpa.  IN  PTR api-int.okd.ms1.lan.
 
 150.0.0.10.in-addr.arpa.  IN  PTR control-plane1.okd.ms1.lan.
 151.0.0.10.in-addr.arpa.  IN  PTR control-plane2.okd.ms1.lan.
