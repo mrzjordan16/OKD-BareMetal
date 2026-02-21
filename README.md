@@ -1,4 +1,4 @@
-# OpenShift Kubernetes Distribution - OKD v4.21.0 Bare Metal Install - User Provisioned Infrastructure (UPI)
+# OpenShift Kubernetes Distribution - OKD v4.21.0 Bare Metal - User Provisioned Infrastructure (UPI)
 
 **OpenShift Kubernetes Distribution (OKD)** — User-provisioned bare-metal cluster for homelab and on-premise deployments.
 
