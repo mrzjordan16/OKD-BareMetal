@@ -1,4 +1,5 @@
 .~*.docx
 .~*.html
 Documentation/.~*.docx
+Documentation/.~D-Cluster.docx
 .openshift_install.log
