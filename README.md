@@ -5,7 +5,9 @@
 - **Repository:** [OKD-BareMetal](https://github.com/mnhomelab/OKD-BareMetal)  
 - **Network architecture (full scale):** [OKD-BareMetal – Network Diagram](https://mnhomelab.github.io/OKD-BareMetal/)
 
+## Architecture Diagram
 
+![Architecture Diagram](./picture/Architecture.png)
 
 ## Table of Contents
 
@@ -564,6 +566,8 @@ oc create -f manifest/registry-pv.yaml
 ```
 
 - Open: `https://console-openshift-console.apps.okd.ms1.lan/`
+
+![OKD Console ](./picture/Console.png)
 
 #### 5.4.4 Make Masters Schedulable or Unschedulable
 
